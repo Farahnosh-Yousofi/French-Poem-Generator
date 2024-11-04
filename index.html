@@ -7,38 +7,41 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Welcome to french poem generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of French Poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <button type="submit">Generate Poem</button>
-      </form>
-      <div id="poem-container">
-        <!-- The generated poem will appear here -->
-        <br />
-        <!-- The generated poem will appear here -->
-      </div>
-    </main>
-    <footer>
-      This was coded by
-      <a href="https://github.com/Farahnosh-Yousofi">Farahnosh Yousofi</a> and
-      it is
-      <a
-        href="https://github.com/Farahnosh-Yousofi/French-Poem-Generator"
-        target="_blank"
-      >
-        On GitHub</a
-      >and is hosted on
-      <a href="https://rainbow-gingersnap-6bc7f8.netlify.app"> Netlify</a>
-    </footer>
+    <div class="container">
+      <header>
+        <h1>Welcome to french poem generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of French Poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <button type="submit" class="submit-button">Generate Poem</button>
+        </form>
+        <div id="poem-container">
+          <!-- The generated poem will appear here -->
+          <br />
+          <!-- The generated poem will appear here -->
+        </div>
+      </main>
+      <footer>
+        This was coded by
+        <a href="https://github.com/Farahnosh-Yousofi">Farahnosh Yousofi</a> and
+        it is
+        <a
+          href="https://github.com/Farahnosh-Yousofi/French-Poem-Generator"
+          target="_blank"
+        >
+          On GitHub</a
+        >and is hosted on
+        <a href="https://rainbow-gingersnap-6bc7f8.netlify.app"> Netlify</a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
